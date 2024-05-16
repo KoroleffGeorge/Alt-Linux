@@ -49,13 +49,13 @@ Reload privilege tables now? [Y/n]:  Y
 
 1. Откройте терминал и выполните следующие команды по скачиванию и распаковке установочных файлов:
 ```
-wget https://github.com/KoroleffGeorge/ServerOnSimpleLinux/archive/refs/tags/orangehrm-1.0.2.tar.gz
+wget https://github.com/KoroleffGeorge/Alt-Linux/archive/refs/tags/orangehrm-2.0.0.tar.gz
 ```
 ```
-tar -xvf orangehrm-1.0.2.tar.gz
+tar -xvf orangehrm-2.0.0.tar.gz
 ```
 ```
-cd ServerOnSimpleLinux-orangehrm-1.0.2
+cd Alt-Linux-orangehrm-2.0.0
 ```
 
 2. Перейдите в файл `/etc/my.cnf.d/server.cnf` с правами администратора и закомментируйте `skip-networking`
