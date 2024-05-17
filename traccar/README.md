@@ -50,13 +50,10 @@ Reload privilege tables now? [Y/n]:  Y
 
 1. Откройте терминал и выполните следующие команды по скачиванию установочных файлов:
 ```
-wget https://github.com/KoroleffGeorge/Alt-Linux/archive/refs/tags/traccar-2.0.0.tar.gz
+git clone https://github.com/KoroleffGeorge/Alt-Linux.git
 ```
 ```
-tar -xvf traccar-2.0.0.tar.gz
-```
-```
-cd Alt-Linux-traccar-2.0.0
+cd Alt-Linux
 ```
 
 2. Перейдите в файл `/etc/my.cnf.d/server.cnf` с правами администратора и закомментируйте `skip-networking`
@@ -77,11 +74,11 @@ chmod +x traccar-install.sh
 ./traccar-install.sh agr1 arg2
 ```
 
-6. Завершение:
+### Завершение:
 * После установки зависимостей скрипт выведет сообщение о готовности к эксплуатации приложения.
 * URL: http://localhost:8082/
 
-7. Сохранение прогресса работы приложения:
+### Сохранение прогресса работы приложения:
 ```
 chmod +x copy-traccar-script.sh
 ```
@@ -90,7 +87,7 @@ chmod +x copy-traccar-script.sh
 ./copy-traccar-script.sh arg1 arg2
 ```
 
-8. Восстановление предыдущего состояния базы данных:
+### Восстановление предыдущего состояния базы данных:
 ```
 chmod +x restore-traccar-script.sh
 ```
