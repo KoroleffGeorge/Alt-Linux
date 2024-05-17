@@ -49,13 +49,10 @@ Reload privilege tables now? [Y/n]:  Y
 
 1. Откройте терминал и выполните следующие команды по скачиванию и распаковке установочных файлов:
 ```
-wget https://github.com/KoroleffGeorge/Alt-Linux/archive/refs/tags/orangehrm-2.0.0.tar.gz
+git clone https://github.com/KoroleffGeorge/Alt-Linux.git
 ```
 ```
-tar -xvf orangehrm-2.0.0.tar.gz
-```
-```
-cd Alt-Linux-orangehrm-2.0.0
+cd Alt-Linux
 ```
 
 2. Перейдите в файл `/etc/my.cnf.d/server.cnf` с правами администратора и закомментируйте `skip-networking`
@@ -76,11 +73,11 @@ chmod +x orangehrm-install.sh
 ./orangehrm-install.sh agr1 arg2
 ```
 
-6. Завершение:
+### Завершение:
 * После успешной установки скрипт выведет сообщение о готовности к эксплуатации приложения.
 * URL: http://localhost:80/installer/index.php/welcome
 
-7. Сохранение прогресса работы приложения:
+### Сохранение прогресса работы приложения:
 ```
 chmod +x copy-orangehrm-script.sh
 ```
@@ -89,7 +86,7 @@ chmod +x copy-orangehrm-script.sh
 ./copy-orangehrm-script.sh arg1 arg2
 ```
 
-8. Восстановление предыдущего состояния базы данных:
+### Восстановление предыдущего состояния базы данных:
 ```
 chmod +x restore-orangehrm-script.sh
 ```
@@ -100,8 +97,8 @@ chmod +x restore-orangehrm-script.sh
 
 ### Донастройка приложения:
 ![Пример](/orangehrm/screenshots/orangehrm1.jpg)
-![Пример](/screenshots/orangehrm2.jpg)
-![Пример](/screenshots/orangehrm3.jpg)
-![Пример](/screenshots/orangehrm4.jpg)
-![Пример](/screenshots/orangehrm5.jpg)
-![Пример](/screenshots/orangehrm6.jpg)
+![Пример](/orangehrm/screenshots/orangehrm2.jpg)
+![Пример](/orangehrm/screenshots/orangehrm3.jpg)
+![Пример](/orangehrm/screenshots/orangehrm4.jpg)
+![Пример](/orangehrm/screenshots/orangehrm5.jpg)
+![Пример](/orangehrm/screenshots/orangehrm6.jpg)
