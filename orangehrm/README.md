@@ -99,7 +99,7 @@ chmod +x restore-orangehrm-script.sh
 ```
 
 ### Донастройка приложения:
-![Пример](/screenshots/orangehrm1.jpg)
+![Пример](/orangehrm/screenshots/orangehrm1.jpg)
 ![Пример](/screenshots/orangehrm2.jpg)
 ![Пример](/screenshots/orangehrm3.jpg)
 ![Пример](/screenshots/orangehrm4.jpg)
